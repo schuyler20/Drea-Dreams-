@@ -1,28 +1,3 @@
-var sarah=300;
-
-
-//The setup function only happens once
-function setup() {
-	createCanvas(500, 500); //create a 500px X 500px canvas
-    strokeWeight(9);
-    stroke(255,100);
-}
-
-//The draw function happens over and over again
-function draw() {
-  background(173,145,230); //an RGB color for the canvas' background
-  //circle
-  stroke(255,403 ,127) // an RGB color for the circle's border
-  fill(255,500,135,150); // an RGB color for the inside of the circle (the last number refers to transparency (min. 0, max. 255))
-  ellipse(mouseX,mouseY,20,20); // center of canvas, 20px dia
- fill(345,120,555,sarah);
- rect(100,100,75,75);
- }
-
-function mousePressed(){
-	sarah=sarah-30;
-}
-
 let x = [],
   y = [],
   segNum = 20,
@@ -34,7 +9,7 @@ for (let i = 0; i < segNum; i++) {
 }
 
 function setup() {
-  createCanvas(710, 400);
+  createCanvas(500, 210);
   strokeWeight(9);
   stroke(255, 100);
 }
