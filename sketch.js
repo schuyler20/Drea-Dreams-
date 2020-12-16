@@ -9,7 +9,7 @@ for (let i = 0; i < segNum; i++) {
 }
 
 function setup() {
-  createCanvas(500, 210);
+  createCanvas(640, 360);
   strokeWeight(9);
   stroke(255, 100);
 }
